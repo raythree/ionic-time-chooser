@@ -22,6 +22,8 @@ function TimeDemo() {
     setEndMinutes(m);
   }
 
+  // In the app, we have a list of start and end time
+  // pairs, so the component takes the index.
   let ix = 1;
   return (
     <div>
