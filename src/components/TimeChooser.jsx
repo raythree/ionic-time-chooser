@@ -25,7 +25,7 @@ function TimeChooser({ name, hours, minutes, onChange, hide }) {
     d.setSeconds(0);
     d.setMilliseconds(0)
     fd = d.toISOString();
-    //console.log(`Time set from ${h}:${m} to ${fd}`)
+    console.log(`Time set from ${h}:${m} to ${fd}`)
     return fd;
   }
 
